@@ -1,9 +1,10 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
         "appIDs": [
-          ".com.universal-links-test.app"
+          "1636295983.com.streetgroupltd.streetconsumer.dev"
         ],
         "components": [
           {
