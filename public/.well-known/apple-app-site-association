@@ -4,14 +4,9 @@
     "details": [
       {
         "appIDs": [
-          "1636295983.com.streetgroupltd.streetconsumer.dev"
+          "NTQB9PZCZN.com.streetgroupltd.streetconsumer.dev"
         ],
         "components": [
-          {
-            "#": "/no-redirect/*",
-            "exclude": true,
-            "comment": "Matches any URL with a fragment that equals no-redirect and instructs the system not to open it as a universal link."
-          },
           {
             "/": "/redirect/*",
             "comment": "Matches any URL with a path that starts with /redirect/."
