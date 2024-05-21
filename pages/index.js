@@ -12,18 +12,14 @@ export default function Home() {
 
       <main>
         <Header title="Universal Links spike test!!" />
-        <button
-          onClick={"https://main--curious-duckanoo-749871.netlify.app/redirect"}
-        >
+        <a href={"https://main--curious-duckanoo-749871.netlify.app/redirect"}>
           continue on app
-        </button>
-        <button
-          onClick={
-            "https://main--curious-duckanoo-749871.netlify.app/no-redirect"
-          }
+        </a>
+        <a
+          href={"https://main--curious-duckanoo-749871.netlify.app/no-redirect"}
         >
           this one won't redirect
-        </button>
+        </a>
       </main>
 
       <Footer />
