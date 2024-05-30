@@ -19,10 +19,8 @@ export default function Home() {
         >
           continue on app
         </a>
-        <a
-          href={"https://main--curious-duckanoo-749871.netlify.app/no-redirect"}
-        >
-          this one won't redirect
+        <a href={"https://main--curious-duckanoo-749871.netlify.app/redirect"}>
+          this one is without the query params
         </a>
       </main>
 
