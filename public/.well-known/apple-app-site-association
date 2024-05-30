@@ -6,11 +6,12 @@
         "appIDs": [
           "NTQB9PZCZN.com.streetgroupltd.streetconsumer.dev"
         ],
+        "paths": [],
         "components": [
           {
-            "/": "/redirect/*",
+            "/": "/redirect",
             "?": {
-              "propertyId": "*"
+              "propertyId": "??????"
             }
           }
         ]
