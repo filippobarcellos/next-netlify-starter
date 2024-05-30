@@ -12,7 +12,11 @@ export default function Home() {
 
       <main>
         <Header title="Universal Links spike test!!" />
-        <a href={"https://main--curious-duckanoo-749871.netlify.app/redirect"}>
+        <a
+          href={
+            "https://main--curious-duckanoo-749871.netlify.app/redirect?propertyId=123456"
+          }
+        >
           continue on app
         </a>
         <a

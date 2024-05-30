@@ -9,7 +9,23 @@
         "components": [
           {
             "/": "/redirect/*",
-            "comment": "Matches any URL with a path that starts with /redirect/."
+            "?": {
+              "propertyId": "*"
+            }
+          },
+          {
+            "/": "/beta/platform/selling/deeplink/piq/*",
+            "?": {
+              "propertyId": "*"
+            },
+            "comment": "Matches any URL with a path that starts with /beta/platform/selling/deeplink/piq."
+          },
+          {
+            "/": "/beta/platform/selling/deeplink/compliance/*",
+            "?": {
+              "propertyId": "*"
+            },
+            "comment": "Matches any URL with a path that starts with /beta/platform/selling/deeplink/compliance."
           }
         ]
       }
