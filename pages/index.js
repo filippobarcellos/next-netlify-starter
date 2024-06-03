@@ -22,6 +22,9 @@ export default function Home() {
         <Link target="_blank" href={"/compliance?property=123456"}>
           continue on app (link within same host)
         </Link>
+        <Link href={"https://shorturl.at/9EOXi"}>
+          continue on app (short link)
+        </Link>
       </main>
 
       <Footer />
