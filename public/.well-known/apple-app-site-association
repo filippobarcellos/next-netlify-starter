@@ -33,7 +33,10 @@
             "comment": "Matches any URL whose path is * and instructs the system to open it as a Universal link"
           },
           {
-            "/": "/",
+            "/": "/compliance/*",
+            "?": {
+              "property": "*"
+            },
             "comment": "Matches any URL whose path is / and instructs the system to open it as a Universal link"
           }
         ]

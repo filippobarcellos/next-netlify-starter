@@ -11,7 +11,7 @@ export default function Compliance() {
       </Head>
 
       <main>
-        <Header title="<title>You're being redirect to the app or store if you don't have the app</title>" />
+        <Header title="You're being redirect to the app or store if you don't have the app" />
       </main>
 
       <Footer />
