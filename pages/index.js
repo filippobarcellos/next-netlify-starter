@@ -19,11 +19,8 @@ export default function Home() {
 
       <main>
         <Header title="Universal Links spike test!!" />
-        <Link target="_blank" href={"/compliance?property=123456"}>
-          continue on app (link within same host)
-        </Link>
-        <Link href={"https://shorturl.at/9EOXi"}>
-          continue on app (short link)
+        <Link href={"/compliance?property=123456"}>
+          continue on app (same host)
         </Link>
       </main>
 
