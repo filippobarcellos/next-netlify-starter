@@ -19,8 +19,8 @@ export default function Home() {
 
       <main>
         <Header title="Universal Links spike test!!" />
-        <Link href={"/compliance?property=123456"}>
-          continue on app (same host)
+        <Link href={"streetconsumer://compliance?propertyId=d9376ea2-9475-4702-95a2-127268885ee9"}>
+          continue on app
         </Link>
       </main>
 
