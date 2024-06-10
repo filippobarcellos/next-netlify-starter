@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
+import { useEffect, useRef } from "react";
 
 export default function Compliance() {
+  const iframeRef = useRef();
+
   return (
     <div className="container">
       <Head>
@@ -15,6 +18,7 @@ export default function Compliance() {
       </main>
 
       <iframe
+        ref={iframeRef}
         data-testid="iframe"
         title="app"
         width={0}
