@@ -6,6 +6,14 @@ import { useEffect, useRef } from "react";
 export default function Compliance() {
   const iframeRef = useRef();
 
+  useEffect(() => {
+    if (window) {
+      window.location.replace(
+        "streetconsumer://compliance?propertyId=d9376ea2-9475-4702-95a2-127268885ee9"
+      );
+    }
+  }, [window]);
+
   return (
     <div className="container">
       <Head>
@@ -17,7 +25,7 @@ export default function Compliance() {
         <Header title="You're being redirect to the app or store if you don't have the app" />
       </main>
 
-      <iframe
+      {/* <iframe
         ref={iframeRef}
         data-testid="iframe"
         title="app"
@@ -27,7 +35,7 @@ export default function Compliance() {
         src={
           "streetconsumer://compliance?propertyId=d9376ea2-9475-4702-95a2-127268885ee9"
         }
-      ></iframe>
+      ></iframe> */}
 
       <Footer />
     </div>
