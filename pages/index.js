@@ -20,6 +20,7 @@ export default function Home() {
       <main>
         <Header title="Universal Links spike test!!" />
         <Link href={"/compliance"}>continue on app</Link>
+        <Link href={"/test"}>continue on app 2</Link>
       </main>
 
       <Footer />
